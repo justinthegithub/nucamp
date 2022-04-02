@@ -33,8 +33,8 @@
                <a href="#reserveForm"> <button type="button" class="btn btn-info btn-lg">Reserve Campsite</button> </a>
 </div>
             </div> 
-        </div>
-    </header>
+            </div>
+        </header>
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
@@ -55,18 +55,21 @@
     </nav>
 
     <div class="container">
-         <div class="row row-content align-items-center">
+          <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Discover & Review</h2>
             </div>
             <div class="col">
+                
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg" alt="Breadcrumb Trail" />
                     <div class="media-body align-self-center">
                         <h3>Our Campsites</h3>
                         <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own reviews!</p>
+ 
                     </div>
                 </div>
+            </div>
             </div>
 
             <div class="row row-content align-items-center">
@@ -91,7 +94,7 @@
 
         <div class="row row-content">
             <div class="col-sm-4 order-sm-last col-md-3">
-                <h2 class="text-sm-right">Our Community Partners</h2>
+                <h2>Our Community Partners</h2>
             </div>
 
             <div class="col">
@@ -104,20 +107,22 @@
                         </div>
                     </div>
                 </div>
+            
             </div>
-            </div></div>
+         
             <div class="row row-content">
                 <div class="col-sm-6 mx-auto">
                     <div class="card">
                         <h3 class="card-header bg-info text-white" >Reserve a Campsite</h3>
 <div class="card-body">
-    <form id="reserveForm>
-        <div class="row">
-            
-<label class="col-sm-6" for="">Number of Campers</label>
-<div class="col form-group">
-<select name="numCampers" id="numCampers">
-    <option value="">select...</option>
+    <form id="reserveForm">
+ <div class="form-group row">
+    <div class="col-sm-6">       
+<label class="col-form-label" for="Number of Campers">Number of Campers</label>
+</div>
+<div class="col">
+<select name="numCampers" id="numCampers" class="form-control">
+    <option value="">Select...</option>
     <option value="">1</option>
     <option value="">2</option>
     <option value="">3</option>
@@ -127,33 +132,34 @@
 </select>
         </div>
 </div>
-        <div class="row">
+
+<div class="form-group row">
 
  
-<label class="col-sm-6 form-group" for="date">Date</label>
+<label class="col-sm-6" for="date">Date</label>
 <div class="col-sm-6">
-<input type="id" name="date" placeholder="01-01-01">
+<input type="date" id="date" name="date" placeholder="MMDDYY" class="form-control">
 
 </div>
 
-<div class="row">
-    <div class="col form-group">
+<div class="form-group row">
+    <div class="col">
         
         <button type="button" class="btn btn-primary">Search</button>
         </div>
     
 </div>
-
+</div>
         </div>
     </form>
 </div>                    
                     
                     
-                    </div>
+                    
 
                 </div>
-            </div>"
-         </div>
+            </div>
+         
         </div>
             <footer class="site-footer">
                 <div class="container">
