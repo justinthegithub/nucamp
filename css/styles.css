@@ -17,7 +17,7 @@ footer {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
   color: white; }
 
 .row-content {
@@ -36,10 +36,18 @@ footer {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #5637dd; }
+  border: solid #5637DD; }
 
 #carouselButton {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: #17A2BB;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
